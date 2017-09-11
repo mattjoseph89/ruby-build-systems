@@ -9,6 +9,13 @@
 
 	
 
+allstyles=""
+
+
+
+
+
+
 
 contents = File.read("buttons.css")
 stylemaster = File.open("styles.css", "a+")
@@ -21,22 +28,6 @@ stylemaster.write(contents)
 contents = File.read("clear.css")
 stylemaster = File.open("styles.css", "a+")
 stylemaster.write(contents)
-
-
-# 	stylesheet = File.open("buttons.css", "a+")
-# 	contents = stylesheet.read
-# 	puts contents 
-
-# 	stylesheet = File.open("type.css", "a+")
-# 	contents = stylesheet.read
-# 	puts contents 
-
-# 	stylesheet = File.open("clear.css", "a+")
-# 	contents = stylesheet.read
-# 	puts contents 
-
-
-
 
 
 

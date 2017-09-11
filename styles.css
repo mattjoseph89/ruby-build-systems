@@ -1,9 +1,6 @@
-.button{
-  color: blue;
-  background-color: white;
-}a{
-  color: red;
-}/*-----------------------page resets-------------------------------*/
+
+
+/*-----------------------page resets-------------------------------*/
 
 /* A basic reset */
 
@@ -80,3 +77,13 @@ blockquote, q {
 /*hides from IE-mac*/
 * html. clearfix {height: 1%;}
 .clearfix {display: block;}
+
+.button{
+  color: blue;
+  background-color: white;
+}
+
+a{
+  color: red;
+}
+
